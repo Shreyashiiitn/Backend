@@ -21,6 +21,9 @@ app.get(('/youtube') , (req , res) => {
     res.send('<h1>Welcome to YT</h1>')
 })
 
+app.get(('/snapchat') , (req , res) => {
+    res.send('<h1>Welcome to snapchat</h1>')
+})
 
 // we've made a server 
 app.listen(process.env.PORT, () => {
